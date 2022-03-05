@@ -115,3 +115,121 @@ html {
     text-align: center;
     margin-top: 55px;
 }
+
+/* description */
+.description {
+    background-color: #FEFEC9;
+    color: #47474F;
+    height: 229px;
+    padding-top: 60px;
+}
+
+.descriprion-text {
+    font-family: var(--vollkorn);
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    display: block;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.btn-desc {
+    background-color: transparent;
+    border: 1px solid #47474F;
+    padding: 13px 34px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: var(--vollkorn);
+    color: #47474F;
+    display: block;
+    margin: 40px auto 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-desc:hover,
+.btn-desc:active,
+.btn-desc:focus {
+    background-color: #47474F;
+    color: #fff;
+}
+
+/* process */
+
+.process {
+    height: 625px;
+}
+
+.process-container {
+    height: 487px;
+    width: 940px;
+    margin: 69px auto;
+}
+
+.title {
+    font-family: var(--montserrat);
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: var(--black);
+    text-align: center;
+    position: relative;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color: #000;
+    opacity: .09;
+    bottom: -28px;
+    left: 420px;
+}
+
+.process-items {
+    height: 368px;
+    margin: 73px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.process-item {
+    width: 33.33%;
+}
+.icon-block {
+    background-color: #F5F5F5;
+    width: 300px;
+    height: 219px;
+    margin: 0 auto 38px;
+    position: relative;
+}
+
+.icon-block img {
+    position: absolute;
+    top: 50px;
+    left: 86px;
+}
+
+.process-title {
+    text-transform: uppercase;
+    font-family: var(--montserrat);
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--black);
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.process-text {
+    font-family: var(--vollkorn);
+    font-size: 15px;
+    line-height: 22px;
+    color: var(--black);
+    text-align: center;
+    max-width: 300px;
+}
