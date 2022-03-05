@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Vollkorn:ital@0;1&display=swap');
+
+:root {
+    --montserrat: 'Montserrat', sans-serif;
+    --oswald: 'Oswald', sans-serif;
+    --vollkorn: 'Vollkorn', serif;
+    --black: #333333;
+    --darkgray: #404040;
+}
+
+
+html {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    max-height: 106px;
+    display: flex;
+    justify-content: center;
+    padding: 18px 0;
+}
+
+.header-container {
+    width: 940px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container {
+    width: 155px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.logo-text {
+    font-family: var(--oswald);
+    font-size: 22px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: var(--black);
+    margin: 13px 0 19px;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    font-family: var(--montserrat);
+    font-style: 12px;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: 25px 0 0 34px;   
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: var(--darkgray);
+}
+
+.nav-item a:hover, 
+.nav-item a:focus, 
+.nav-item a:active {
+    opacity: .7;
+    text-decoration: underline;
+}
+
+/* banner */
+
+.banner {
+    background-image: url(./img/bg-sea.jpg);
+    height: 286px;
+    padding-top: 105px;
+    position: relative;     
+}
+
+.main-title {
+    font-family: var(--montserrat);
+    font-size: 44px;
+    line-height: 55px;
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+
+.main-line::after {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    width: 80px;
+    height: 2px;
+    bottom: 146px;
+    left: 640px;
+}
+
+.main-subtitle {
+    font-family: var(--vollkorn);
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    opacity: .81;
+    display: block;
+    text-align: center;
+    margin-top: 55px;
+}
