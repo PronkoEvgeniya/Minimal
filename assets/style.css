@@ -158,13 +158,13 @@ html {
 /* process */
 
 .process {
-    height: 625px;
+    height: 556px;
 }
 
 .process-container {
     height: 487px;
     width: 940px;
-    margin: 69px auto;
+    margin: 69px auto 0;
 }
 
 .title {
@@ -232,4 +232,30 @@ html {
     color: var(--black);
     text-align: center;
     max-width: 300px;
+}
+
+/* projects */
+
+.projects {
+    height: 1469px;
+    background-color: #F5F5F5;
+}
+
+/* team */
+
+.team {
+    height: 617px;
+}
+
+/* reviews */
+
+.reviews {
+    height: 511px;
+    background-color: #ABABAB;
+}
+
+/* contacts */
+    
+.contacts {
+    height: 517px;
 }
