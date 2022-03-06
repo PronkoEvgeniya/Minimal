@@ -186,7 +186,7 @@ html {
     background-color: #000;
     opacity: .09;
     bottom: -28px;
-    left: 420px;
+    left: 430px;
 }
 
 .process-items {
@@ -200,6 +200,7 @@ html {
 .process-item {
     width: 33.33%;
 }
+
 .icon-block {
     background-color: #F5F5F5;
     width: 300px;
@@ -237,10 +238,67 @@ html {
 /* projects */
 
 .projects {
-    height: 1469px;
+    height: 1390px;
     background-color: #F5F5F5;
+    padding-top: 79px;
 }
 
+.projects-container, 
+.team-container, 
+.contacts-container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.projects-items {
+    margin-top: 73px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.projects-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projects-item {
+    width: 33.33%;
+}
+
+.projects-item img {
+    display: block;
+    margin: 0;
+    cursor: pointer;
+}
+
+.project-desc {
+    height: 84px;
+    width: 300px;
+    background-color: #fff;
+}
+
+.pr-title {
+    text-transform: uppercase;
+    font-family: var(--montserrat);
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--black);
+    text-align: center;
+    display: block;
+    padding: 19px 0 4px;
+}
+
+.pr-subtitle {
+    text-transform: capitalize;
+    font-family: var(--vollkorn);
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--black);
+    display: block;
+    text-align: center;
+}
 /* team */
 
 .team {
