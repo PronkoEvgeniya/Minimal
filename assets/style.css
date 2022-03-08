@@ -102,7 +102,7 @@ html {
     width: 80px;
     height: 2px;
     bottom: 146px;
-    left: 640px;
+    left: 670px;
 }
 
 .main-subtitle {
@@ -427,7 +427,7 @@ html {
 }
 
 .contacts-items {
-    width: 960px;
+    width: 940px;
     height: 260px;
     margin: 73px auto 0;
     display: flex;
@@ -439,4 +439,120 @@ html {
     width: 33.33%;
     display: flex;
     flex-direction: column;
+}
+
+.contact-icon {
+    display: block;
+    margin: 13px auto 26px;
+}
+
+.contact-name {
+    font-family: var(--montserrat);
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+}
+
+.contact-desc span,
+.contact-desc a {
+    font-family: var(--vollkorn);
+    font-size: 17px;
+    line-height: 22px;
+    color: #212121;
+    display: block;
+    text-align: center;
+}
+
+.contact-desc a {
+    margin-bottom: 11px;
+    margin-left: 109px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.contact-desc .social-link {
+    display: inline;
+    margin-left: 9px;
+    transition: .3s;
+}
+
+.contact-desc .social-link:hover {
+    color: #fff;
+}
+
+.footer {
+    height: 570px;
+    background-color: #000;
+    padding-top: 69px;
+}
+
+.input {
+    display: block;
+    width: 398px;
+    height: 57px;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    font-family: var(--vollkorn);
+    font-style: italic;
+    font-size: 17px;
+    color: #FFFFFF;
+    padding-left: 31px;
+}
+
+.input::placeholder {
+    color: #FFFFFF;
+}
+
+.input:nth-child(odd) {
+    background-color: rgba(255, 255, 255, .18);
+}
+.input:nth-child(even) {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.input:last-child {
+    height: 110px;
+    resize: none;
+    padding-top: 17px;
+    margin-bottom: 23px;
+}
+
+.btn-send {
+    width: 210px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #7EC4BD;
+    background-color: transparent;
+    color: #8BCAC3;
+    font-family: var(--vollkorn);
+    font-style: italic;
+    font-size: 17px;
+    line-height: 22px;
+    padding: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-send:hover {
+    background-color: #7EC4BD;
+    color: #FFFFFF;
+}
+
+.footer img {
+    display: block;
+    margin: 37px auto 14px;
+}
+
+.footer span {
+    display: block;
+    font-family: var(--vollkorn);
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(255, 255, 255, .4);
 }
