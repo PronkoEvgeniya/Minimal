@@ -82,7 +82,6 @@ html {
     background-image: url(./img/bg-sea.jpg);
     height: 286px;
     padding-top: 105px;
-    position: relative;     
 }
 
 .main-title {
@@ -92,7 +91,13 @@ html {
     text-transform: uppercase;
     display: block;
     color: #fff;
+    width: 940px;
+    margin: 0 auto;
     text-align: center;
+}
+
+.main-line {
+    position: relative;
 }
 
 .main-line::after {
@@ -101,8 +106,8 @@ html {
     background-color: #fff;
     width: 80px;
     height: 2px;
-    bottom: 146px;
-    left: 670px;
+    bottom: -28px;
+    left: 430px;
 }
 
 .main-subtitle {
@@ -555,4 +560,57 @@ html {
     line-height: 22px;
     text-align: center;
     color: rgba(255, 255, 255, .4);
+}
+
+@media (max-width: 940px) {
+    .header-container {
+        max-width: 940px;
+        padding: 0 10px;
+    }
+
+    .header-container {
+        font-size: 24px;
+        max-width: 90%;
+    }
+
+    .descriprion-text {
+        max-width: 90%;
+        padding: 0 15px;
+    }
+
+    .process-container {
+        width: 100%;
+    }
+
+    .icon-block {
+        max-width: 250px;
+    }
+
+    .icon-block img {
+        left: 65px;
+    }
+
+    .process-text {
+        max-width: 240px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .projects-container, .team-container, .contacts-container,
+    .projects-row {
+        width: 100%;    
+    }
+
+    .project-desc {
+        max-width: 240px;
+    }
+
+    .projects-item img,
+    .projects-item {
+        max-width: 240px;
+    }
+
+    .title::after {
+        left: calc((100% - 80px)/2);
+    }
 }
